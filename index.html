@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>NexaTech Solutions | IT & Cybersecurity</title>
+
+<style>
+:root{
+    --primary:#0A2540;
+    --secondary:#00C2FF;
+    --accent:#0066FF;
+    --light:#F5F8FC;
+    --text:#333;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:var(--light);
+    color:var(--text);
+    line-height:1.7;
+}
+
+header{
+    background:linear-gradient(135deg,#0A2540,#003366);
+    color:white;
+    padding:30px 10%;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.logo svg{
+    width:55px;
+    height:55px;
+}
+
+.logo h1{
+    font-size:1.6rem;
+}
+
+.hero{
+    padding:80px 10%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+
+.hero-text{
+    max-width:600px;
+}
+
+.hero h2{
+    font-size:3rem;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:1.1rem;
+    opacity:0.95;
+}
+
+.btn{
+    display:inline-block;
+    background:var(--secondary);
+    color:#000;
+    text-decoration:none;
+    padding:15px 30px;
+    margin-top:25px;
+    border-radius:8px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:white;
+}
+
+.hero-image{
+    font-size:8rem;
+}
+
+section{
+    padding:80px 10%;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.section-title h2{
+    color:var(--primary);
+    font-size:2.2rem;
+}
+
+.about{
+    max-width:1000px;
+    margin:auto;
+    text-align:center;
+}
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card h3{
+    color:var(--accent);
+    margin-bottom:15px;
+}
+
+.plan{
+    background:white;
+    border-radius:15px;
+    padding:40px;
+    max-width:1000px;
+    margin:auto;
+    box-shadow:0 5px 15px rgba(0,0,0,.05);
+}
+
+.plan ol{
+    padding-left:20px;
+}
+
+.cta{
+    text-align:center;
+    background:linear-gradient(135deg,#0066FF,#00C2FF);
+    color:white;
+}
+
+.contact-box{
+    max-width:700px;
+    margin:auto;
+}
+
+footer{
+    background:#081A2D;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+.email{
+    color:#00C2FF;
+    font-weight:bold;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+
+<nav>
+
+<div class="logo">
+
+<svg viewBox="0 0 100 100">
+    <circle cx="50" cy="50" r="45" fill="#00C2FF"/>
+    <path d="M50 20 L75 35 L75 65 L50 80 L25 65 L25 35 Z"
+          fill="#0A2540"/>
+</svg>
+
+<h1>NexaTech Solutions</h1>
+
+</div>
+
+</nav>
+
+<div class="hero">
+
+<div class="hero-text">
+
+<h2>Future-Proof IT & Cybersecurity</h2>
+
+<p>
+NexaTech Solutions helpt ondernemingen
+met veilige netwerken, cloudinfrastructuur
+en cybersecurity-oplossingen.
+Wij zorgen ervoor dat technologie een
+meerwaarde wordt voor uw organisatie.
+</p>
+
+<a href="#contact" class="btn">
+Vraag een Offerte Aan
+</a>
+
+</div>
+
+<div class="hero-image">
+🛡️
+</div>
+
+</div>
+</header>
+
+<section>
+
+<div class="section-title">
+<h2>Over Ons</h2>
+</div>
+
+<div class="about">
+
+<p>
+NexaTech Solutions is een fictieve onderneming
+die gespecialiseerd is in moderne IT-oplossingen.
+Onze focus ligt op netwerkbeheer, cyberbeveiliging,
+cloudplatformen en technische ondersteuning.
+Wij helpen bedrijven om efficiënter te werken,
+hun gegevens te beschermen en hun digitale
+transformatie succesvol uit te voeren.
+</p>
+
+<br>
+
+<p>
+Onze doelgroep bestaat uit kleine en
+middelgrote ondernemingen die behoefte hebben
+aan betrouwbare IT-systemen zonder zelf
+een volledige interne IT-afdeling uit te bouwen.
+</p>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="section-title">
+<h2>Onze Diensten</h2>
+</div>
+
+<div class="services">
+
+<div class="card">
+<h3>🌐 Netwerkbeheer</h3>
+<p>
+Ontwerp, installatie en beheer van bedrijfsnetwerken,
+switches, routers, VLAN's en draadloze netwerken.
+</p>
+</div>
+
+<div class="card">
+<h3>🔒 Cybersecurity</h3>
+<p>
+Implementatie van firewalls, VPN-oplossingen,
+authenticatie en beveiligingsaudits.
+</p>
+</div>
+
+<div class="card">
+<h3>☁️ Cloud Services</h3>
+<p>
+Microsoft 365, cloudmigraties,
+online samenwerking en back-upstrategieën.
+</p>
+</div>
+
+<div class="card">
+<h3>🖥️ IT Support</h3>
+<p>
+Technische ondersteuning,
+monitoring en probleemoplossing voor bedrijven.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="section-title">
+<h2>Hoe We Te Werk Gaan</h2>
+</div>
+
+<div class="plan">
+
+<ol>
+
+<li>
+<strong>Analyse</strong><br>
+Wij bestuderen de huidige IT-omgeving en brengen behoeften in kaart.
+</li>
+
+<br>
+
+<li>
+<strong>Planning</strong><br>
+Op basis van de analyse ontwikkelen we een oplossing op maat.
+</li>
+
+<br>
+
+<li>
+<strong>Implementatie</strong><br>
+Netwerken, beveiliging en cloudomgevingen worden professioneel ingericht.
+</li>
+
+<br>
+
+<li>
+<strong>Ondersteuning</strong><br>
+Nazorg, onderhoud en continue verbetering.
+</li>
+
+</ol>
+
+</div>
+
+</section>
+
+<section class="cta" id="contact">
+
+<div class="contact-box">
+
+<h2>Neem Contact Op</h2>
+
+<br>
+
+<p>
+Wilt u uw IT-infrastructuur moderniseren
+of uw netwerk beter beveiligen?
+Wij helpen u graag verder.
+</p>
+
+<br>
+
+<p>
+📧 <span class="email">ben.kesteloot@student.hogent.be</span>
+</p>
+
+<p>
+📱 0468 59 22 35
+</p>
+
+<br>
+
+<a href="mailto:ben.kesteloot@student.hogent.be" class="btn">
+Contacteer Ons
+</a>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+© 2026 NexaTech Solutions
+</p>
+
+<p>
+Professionele IT- en Cybersecuritydiensten
+voor moderne ondernemingen.
+</p>
+
+</footer>
+
+</body>
+</html>
